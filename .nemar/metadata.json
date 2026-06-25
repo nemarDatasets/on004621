@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The Nencki-Symfonia EEG/ERP dataset",
+  "description": "The Nencki-Symfonia EEG/ERP dataset comprises electroencephalography recordings from healthy adults performing multiple cognitive tasks and resting-state protocols. The dataset includes data from an extended multi-source interference task (MSIT+), a 3-stimuli oddball task, a simple reaction time task (SRT), and resting-state recordings. This resource provides event-related potential data suitable for investigating cognitive processing and neural responses across diverse experimental conditions.",
+  "methods_description": "EEG/ERP data were collected from healthy adult participants during four experimental conditions: (i) an extended multi-source interference task (MSIT+), (ii) a 3-stimuli oddball task, (iii) a simple reaction task (SRT), and (iv) a resting-state protocol.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,12 +13,27 @@
     "Dreszer Joanna": {},
     "Kublik Ewa": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004621.v1.0.4",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "cognitive tasks"
+    },
+    {
+      "term": "oddball task"
+    },
+    {
+      "term": "resting-state"
+    },
+    {
+      "term": "interference task"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.5524/100990",
       "identifier_type": "DOI",
@@ -36,6 +53,11 @@
       "identifier": "10.1093/gigascience/giac015",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004621.v1.0.4",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -44,12 +66,12 @@
       "award_number": "2016/20/W/NZ4/00354"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "83.1 GB (962 files)"
   ],
   "formats": [
     ".bvct",
@@ -60,32 +82,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "The Nencki-Symfonia EEG/ERP dataset comprises electroencephalography recordings from healthy adults performing multiple cognitive tasks and resting-state protocols. The dataset includes data from four experimental conditions: an extended multi-source interference task (MSIT+), a 3-stimuli oddball task, a simple reaction time task (SRT), and resting-state recordings. This resource provides event-related potential data suitable for investigating cognitive processing and neural responses across diverse task demands.",
-  "methods_description": "EEG/ERP data were collected from healthy adult participants performing four cognitive tasks: (i) an extended multi-source interference task (MSIT+), (ii) a 3-stimuli oddball task, (iii) a simple reaction task (SRT), and (iv) a resting-state protocol.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
-    },
-    {
-      "term": "cognitive tasks"
-    },
-    {
-      "term": "oddball task"
-    },
-    {
-      "term": "resting-state"
-    },
-    {
-      "term": "interference task"
-    }
-  ],
-  "source_hash": "ac19e85708fbdd6f770be214cc93e437d97374f6b691e22d6a112650f7a331c8"
+  "source_hash": "cfc710b32396e3c4691cce407be68d1c18db7270329baf5f0e16e37cf71d9d6c"
 }
