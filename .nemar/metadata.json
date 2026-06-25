@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The Nencki-Symfonia EEG/ERP dataset",
-  "description": "The Nencki-Symfonia EEG/ERP dataset comprises electroencephalography recordings from healthy adults performing multiple cognitive tasks and resting-state protocols. The dataset includes data from an extended multi-source interference task (MSIT+), a 3-stimuli oddball task, a simple reaction time task (SRT), and resting-state recordings. This resource provides event-related potential data suitable for investigating cognitive processing and neural responses across diverse experimental conditions.",
+  "description": "The Nencki-Symfonia EEG/ERP dataset comprises electroencephalography recordings from healthy adults performing multiple cognitive tasks and resting-state protocols. The dataset includes data from an extended multi-source interference task (MSIT+), a 3-stimuli oddball task, a simple reaction time task (SRT), and resting-state recordings. This resource provides event-related potential data suitable for investigating cognitive processing and neural responses across different task conditions.",
   "methods_description": "EEG/ERP data were collected from healthy adult participants during four experimental conditions: (i) an extended multi-source interference task (MSIT+), (ii) a 3-stimuli oddball task, (iii) a simple reaction task (SRT), and (iv) a resting-state protocol.",
   "license": "CC0",
   "dataset_type": "raw",
