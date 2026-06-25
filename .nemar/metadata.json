@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004621",
-  "source": "openneuro",
-  "source_id": "ds004621",
+  "pipeline_stage": "validated",
   "title": "The Nencki-Symfonia EEG/ERP dataset",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Dzianok Patrycja": {},
     "Antonova Ingrida": {},
@@ -11,26 +11,81 @@
     "Dreszer Joanna": {},
     "Kublik Ewa": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004621.v1.0.4",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.5524/100990",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004621",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004621",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1093/gigascience/giac015",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.0.2",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "Polish National Science Center (NCN) grant no. 2016/20/W/NZ4/00354"
+      "funder_name": "Polish National Science Center",
+      "award_number": "2016/20/W/NZ4/00354"
     }
-  ]
+  ],
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".bvct",
+    ".bvef",
+    ".eeg",
+    ".json",
+    ".log",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "The Nencki-Symfonia EEG/ERP dataset comprises electroencephalography recordings from healthy adults performing multiple cognitive tasks and resting-state protocols. The dataset includes data from four experimental conditions: an extended multi-source interference task (MSIT+), a 3-stimuli oddball task, a simple reaction time task (SRT), and resting-state recordings. This resource provides event-related potential data suitable for investigating cognitive processing and neural responses across diverse task demands.",
+  "methods_description": "EEG/ERP data were collected from healthy adult participants performing four cognitive tasks: (i) an extended multi-source interference task (MSIT+), (ii) a 3-stimuli oddball task, (iii) a simple reaction task (SRT), and (iv) a resting-state protocol.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "cognitive tasks"
+    },
+    {
+      "term": "oddball task"
+    },
+    {
+      "term": "resting-state"
+    },
+    {
+      "term": "interference task"
+    }
+  ],
+  "source_hash": "ac19e85708fbdd6f770be214cc93e437d97374f6b691e22d6a112650f7a331c8"
 }
