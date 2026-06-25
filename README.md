@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004621-blue)](https://doi.org/10.82901/nemar.on004621)
+
 The Nencki-Symfonia EEG/ERP dataset (dataset DOI: doi.org/10.5524/100990)
 
 IMPORTANT NOTE: The dataset contains no errors (BIDS-1). The numerous warnings currently displayed are a result of OpenNeuro updating its validator to BIDS-2. The OpenNeuro team is actively working on refining the validator to display only meaningful warnings (more information on OpenNeuro GitHub page). At this time, as dataset owners, we are unable to take any action to resolve these warnings.
