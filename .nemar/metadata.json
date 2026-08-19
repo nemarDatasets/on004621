@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The Nencki-Symfonia EEG/ERP dataset",
-  "description": "The Nencki-Symfonia EEG/ERP dataset comprises electroencephalography recordings from healthy adults performing multiple cognitive tasks and resting-state protocols. The dataset includes data from an extended multi-source interference task (MSIT+), a 3-stimuli oddball task, a simple reaction time task (SRT), and resting-state recordings. This resource provides event-related potential data suitable for investigating cognitive processing and neural responses across different task conditions.",
+  "description": "This dataset comprises EEG/ERP recordings collected from a sample of healthy adults performing multiple cognitive tasks, including an extended multi-source interference task (MSIT+), a 3-stimuli oddball task, a control simple reaction task (SRT), and a resting-state protocol. It is intended to support research on cognitive control, attention, and resting-state brain dynamics using electrophysiological methods.",
   "methods_description": "EEG/ERP data were collected from healthy adult participants during four experimental conditions: (i) an extended multi-source interference task (MSIT+), (ii) a 3-stimuli oddball task, (iii) a simple reaction task (SRT), and (iv) a resting-state protocol.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -18,34 +18,29 @@
       "term": "EEG"
     },
     {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "cognitive tasks"
-    },
-    {
-      "term": "oddball task"
+      "term": "Event-Related Potentials"
     },
     {
       "term": "resting-state"
     },
     {
-      "term": "interference task"
+      "term": "cognitive control"
+    },
+    {
+      "term": "oddball task"
+    },
+    {
+      "term": "multi-source interference task"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.5524/100990",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsSupplementTo"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on004621",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004621",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -58,11 +53,16 @@
       "identifier": "10.18112/openneuro.ds004621.v1.0.4",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004621",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
     {
-      "funder_name": "Polish National Science Center",
+      "funder_name": "Polish National Science Center (NCN)",
       "award_number": "2016/20/W/NZ4/00354"
     }
   ],
