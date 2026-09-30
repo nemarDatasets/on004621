@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The Nencki-Symfonia EEG/ERP dataset",
-  "description": "This dataset comprises EEG/ERP recordings collected from a sample of healthy adults performing multiple cognitive tasks, including an extended multi-source interference task (MSIT+), a 3-stimuli oddball task, a control simple reaction task (SRT), and a resting-state protocol. It is intended to support research on cognitive control, attention, and resting-state brain dynamics using electrophysiological methods.",
+  "description": "The Nencki-Symfonia EEG/ERP dataset contains high-density EEG recordings from healthy adults performing multiple cognitive tasks and a resting-state protocol. Tasks include an extended multi-source interference task (MSIT+), a three-stimulus oddball task, and a simple reaction task used as a control. The dataset is organized in BIDS format and supports studies of cognitive control, attention, and event-related potentials.",
   "methods_description": "EEG/ERP data were collected from healthy adult participants during four experimental conditions: (i) an extended multi-source interference task (MSIT+), (ii) a 3-stimuli oddball task, (iii) a simple reaction task (SRT), and (iv) a resting-state protocol.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -18,19 +18,22 @@
       "term": "EEG"
     },
     {
-      "term": "Event-Related Potentials"
+      "term": "Event-related potentials"
     },
     {
-      "term": "resting-state"
-    },
-    {
-      "term": "cognitive control"
+      "term": "multi-source interference task"
     },
     {
       "term": "oddball task"
     },
     {
-      "term": "multi-source interference task"
+      "term": "simple reaction task"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "cognitive control"
     }
   ],
   "related_identifiers": [
@@ -71,7 +74,7 @@
     "eeg"
   ],
   "sizes": [
-    "83.1 GB (962 files)"
+    "77.39 GB (962 files)"
   ],
   "formats": [
     ".bvct",
